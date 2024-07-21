@@ -10,7 +10,8 @@ public class DatabaseUtil {
     private static final String USERNAME = "root";
     private static final String PASSWORD = "Rwirasira@123";
     // Private constructor to prevent instantiation
-    private DatabaseUtil() {}
+    public DatabaseUtil() {}
+
 
     // Static method to get a database connection
     public static Connection getConnection() throws SQLException {
