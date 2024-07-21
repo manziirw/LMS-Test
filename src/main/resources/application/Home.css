@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* General Styles */
+.root {
+    -fx-font-family: 'Arial', sans-serif;
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+    -fx-background-color: #f4f4f4;
+}
+
+/* TextField Styles */
+.text-field {
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-border-color: #0078d7;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-pref-width: 200px;
+}
+
+/* Button Styles */
+.button {
+    -fx-background-color: #0078d7;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #005bb5;
+}
+
+/* TableView Styles */
+.table-view {
+    -fx-table-cell-border-color: transparent;
+    -fx-padding: 10px;
+    -fx-background-color: white;
+    -fx-border-color: #d3d3d3;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-pref-height: 400px;
+    x-pref-width: 400px;
+}
+
+.table-column-header {
+    -fx-background-color: #0078d7;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+}
+
+.table-row-cell {
+    -fx-border-color: #d3d3d3;
+    -fx-padding: 5px;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #f9f9f9;
+}
+
+/* HBox and VBox spacing */
+.hbox {
+    -fx-spacing: 10px;
+}
+
+.vbox {
+    -fx-spacing: 10px;
+}
