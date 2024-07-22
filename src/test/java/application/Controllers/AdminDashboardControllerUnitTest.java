@@ -10,7 +10,6 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
 import org.testfx.util.WaitForAsyncUtils;
 
 import java.sql.Connection;
@@ -38,7 +37,7 @@ public class AdminDashboardControllerUnitTest {
         when(mockConnection.prepareStatement(anyString())).thenReturn(mockStatement);
         controller.connection = mockConnection;
 
-        // Initialize FXML components manually for testing
+        // Initialize FXML components  for testing
         controller.bookTitleField = new TextField();
         controller.authorField = new TextField();
         controller.bookTableView = new TableView<>();

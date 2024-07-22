@@ -20,12 +20,12 @@ import java.sql.SQLException;
 public class LoginController {
 
     @FXML
-    TextField usernameField;
+    public TextField usernameField;
 
     @FXML
-    PasswordField passwordField;
+    public PasswordField passwordField;
 
-    private Connection connection;
+    public Connection connection;
 
     @FXML
     public void initialize() {
@@ -39,7 +39,7 @@ public class LoginController {
     }
 
     @FXML
-    void login(ActionEvent event) {
+    public void login(ActionEvent event) {
         String username = usernameField.getText().trim();
         String password = passwordField.getText().trim();
 
@@ -74,7 +74,7 @@ public class LoginController {
     }
 
     @FXML
-    void goToSignUp(ActionEvent event) {
+    public void goToSignUp(ActionEvent event) {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("/application/SignUp.fxml"));
             Stage stage = (Stage) usernameField.getScene().getWindow();
