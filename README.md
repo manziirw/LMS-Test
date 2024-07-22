@@ -24,7 +24,7 @@ ensure that the LMS operates as expected under different scenarios and edge case
 
 **Getting Started**
 
-     Clone the Repository:
+     Clone the Repository: https://github.com/manziirw/LMS-Test.git
 
      Install Dependencies: mvn clean install
 
